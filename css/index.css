@@ -1,0 +1,17 @@
+body{
+  font-family: 'Clash Grotesk', sans-serif;
+}
+div{
+  text-align: center;
+}
+.container-fluid{
+  max-width: 1248px;
+  padding: 0px;
+    /* background: var(--gray-3, #F6F4F0); */
+}
+.box{
+  border: 3px solid red;
+}
+
+
+
