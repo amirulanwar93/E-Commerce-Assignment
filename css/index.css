@@ -2,6 +2,12 @@ body{
   font-family: 'Clash Grotesk', sans-serif;
   font-weight: bold;
 }
+#bg-color-w{
+  background-color: #F6F4F0;
+}
+#bg-color-b{
+  background-color: #2A2C2E;
+}
 .container-fluid{
   max-width: 1248px;
   padding: 0px;
@@ -9,5 +15,4 @@ body{
 .box{
   border: 3px solid red;
 }
-
 

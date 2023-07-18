@@ -11,10 +11,10 @@
     <link href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@200,700,400,600,300,1,500&display=swap" rel="stylesheet">
   </head>
 
-  <body>
+  <body id="bg-color-w">
+    <!-- navigation -->
     <div class="container-fluid box">
-      <!-- navigation -->
-      <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 px-3 my-4 border-bottom bg-dark" style="border-radius: 20px; backdrop-filter: blur(46.5px)">
+      <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 px-3 my-4 border-bottom bg-dark" id="bg-color-b" style="border-radius: 20px; backdrop-filter: blur(46.5px)">
         <div class="col-md-3 mb-2 mb-md-0 ">
           <img src="src/logo.svg" alt="Logo BIG BOOKSHELF">
         </div>
@@ -29,15 +29,17 @@
         <div class="col-md-3 text-end">
           <!-- <div>
             later to make it group -->
-            <img src="./src/Search.svg" alt="Search">
-            <img src="./src/book.svg" alt="Bookmark">
-            <img src="./src/Cart.svg" alt="Cart">
+          <img src="./src/Search.svg" alt="Search">
+          <img src="./src/book.svg" alt="Bookmark">
+          <img src="./src/Cart.svg" alt="Cart">
           <!-- </div> -->
           <button type="button" class="btn btn-primary text-black" style="--bs-btn-bg: #F4CE47">LOGIN</button>
         </div>
       </header>
+    </div>
       
-      <!-- section 1 -->
+    <!-- section 1 -->
+    <div class="container-fluid box">
       <div>
         <!-- <img src="./src/Reading makes the world huge.svg" alt="Heading"> -->
         <h1>LATER MAKE THE IMAGE TO BECOME RESPONSIVE</h1>
@@ -50,10 +52,12 @@
           </div>
         </div>
       </div>
+    </div>
 
-      <!-- section 2 -->
+    <!-- section 2 -->
+    <div class="container-fluid box">
       <div class="album py-5 bg-body-tertiary">
-        <div class="container-fluid bg-dark text-light p-5">
+        <div class="container-fluid text-light p-5" id="bg-color-b">
           BESTSELLERS
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
@@ -195,21 +199,23 @@
             </div>
           </div>
         </div>
-      </div>     
+      </div>  
+    </div>
       
-      <!-- section 3 -->
-      <div>
-        DECIDING WHAT TO READ NEXT
-        <br><br><br><br><br><br><br><br><br><br>
-      </div>
+    <!-- section 3 -->
+    <div>
+      DECIDING WHAT TO READ NEXT
+      <br><br><br><br><br><br><br><br><br><br>
+    </div>
 
-      <!-- section 4 -->
-      <div class="bg-dark text-light">
-        POPULAR AUTHORS
-        <br><br><br><br><br><br><br><br><br><br>
-      </div>
+    <!-- section 4 -->
+    <div class="text-light" id="bg-color-b">
+      POPULAR AUTHORS
+      <br><br><br><br><br><br><br><br><br><br>
+    </div>
 
-      <!-- section 5 -->
+    <!-- section 5 -->
+    <div class="container-fluid box">
       <div class="d-grid gap-3" style="grid-template-columns: 1fr 2fr;">
         <div class="bg-body-tertiary border rounded-3">
           <br><br><br><br><br><br><br><br><br><br>
@@ -218,33 +224,30 @@
           <br><br><br><br><br><br><br><br><br><br>
         </div>       
       </div>
+    </div>
 
 
+    <!-- footer -->
+    <div class="container-fluid" id="bg-color-b">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <img src="src/logo.svg" alt="Logo BIG BOOKSHELF">
+          <!-- <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Company, Inc</span> -->
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><img src="./src/insta.svg" alt="instagram"></li>
+          <li class="ms-3"><img src="./src/fb.svg" alt="facebook"></li>
+          <li class="ms-3"><img src="./src/twitter.svg" alt="twitter"></li>
 
-      <!-- footer -->
-      <div class="container-fluid bg-dark">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <div class="col-md-4 d-flex align-items-center">
-            <img src="src/logo.svg" alt="Logo BIG BOOKSHELF">
-            <!-- <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-            </a>
-            <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Company, Inc</span> -->
-          </div>
-      
-          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><img src="./src/insta.svg" alt="instagram"></li>
-            <li class="ms-3"><img src="./src/fb.svg" alt="facebook"></li>
-            <li class="ms-3"><img src="./src/twitter.svg" alt="twitter"></li>
-
-            <!-- <li class="ms-3"><a class="text-body-secondary" href="./src/insta.svg"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="./src/fb.svg"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="./src/twitter.svg"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li> -->
-          </ul>
-        </footer>
-      </div>
-
-
+          <!-- <li class="ms-3"><a class="text-body-secondary" href="./src/insta.svg"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="./src/fb.svg"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="./src/twitter.svg"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li> -->
+        </ul>
+      </footer>
     </div>
 
     <!-- bootstrap javascript -->
